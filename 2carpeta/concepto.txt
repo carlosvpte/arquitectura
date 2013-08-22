@@ -1,0 +1,12 @@
+La Arquitectura del Software es el diseño de más alto nivel de la estructura de un sistema.
+Una Arquitectura de Software, 
+también denominada Arquitectura lógica, 
+consiste en un conjunto de patrones y abstracciones coherentes que proporcionan el marco
+Una arquitectura de software se selecciona y diseña con base en objetivos y restricciones. 
+Los objetivos son aquellos prefijados para el sistema de información, pero no solamente los de tipo funcional, también otros objetivos como la mantenibilidad, auditabilidad, flexibilidad e interacción con otros sistemas de información. Las restricciones son aquellas limitaciones derivadas de las tecnologías disponibles para implementar sistemas de información. Unas arquitecturas son más recomendables de implementar con ciertas tecnologías mientras que otras tecnologías no son aptas para determinadas arquitecturas. Por ejemplo, no es viable emplear una arquitectura de software de tres capas para implementar sistemas en tiempo real.
+La arquitectura de software define, 
+de manera abstracta, 
+los componentes que llevan a cabo alguna tarea de computación, 
+sus interfaces y la comunicación entre ellos. 
+Toda arquitectura debe ser implementable en una arquitectura física, 
+que consiste simplemente en determinar qué computadora tendrá asignada cada tarea.
