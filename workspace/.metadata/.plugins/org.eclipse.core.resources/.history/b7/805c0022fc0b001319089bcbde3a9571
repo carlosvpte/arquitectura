@@ -1,0 +1,50 @@
+package tareaprogramacion;
+
+import java.util.Scanner;
+
+public class entrada {
+
+	public static void main (String a []){
+
+		Scanner X= new Scanner(System.in);
+		int r=X.nextInt();
+		Scanner Y=new Scanner (System.in);
+		int t=Y.nextInt();
+		int m=r+t;
+		System.out.println(" La suma de los dos numeros es " +m);
+		
+		int z;
+			z=r;
+			r=t;
+			t=z;
+		System.out.println(" Entonces r es igual = "+t+" y t es igual  ="+r);		
+		
+								
+		if (r>t)
+		System.out.println(" Al elevar a la potencia r sobre t =" +Math.pow(r,t));
+		else
+		System.out.println(" Al elevar a la potencia t sobre r =" +Math.pow(t,r));
+		
+		
+		if(r%3==0)
+			System.out.println(" r es multiplo de 3");
+		else
+			System.out.println(" r no es multiplo de 3");
+		
+		if(t%3==0)
+			System.out.println(" t es muktiplo de 3");
+		else
+			System.out.println(" t no es multiplo de 3");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}
+}

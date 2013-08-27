@@ -1,0 +1,19 @@
+package tareaprogramacion;
+
+import java.util.Scanner;
+
+public class entrada {
+
+public static void main (String a []){
+
+		Scanner X= new Scanner(System.in);
+		int r=X.nextInt();
+		Scanner Y=new Scanner (System.in);
+		int t=Y.nextInt();
+		int m=r+t;
+							
+		System.out.println(" La suma de los dos numeros es" +m);
+
+
+}
+}

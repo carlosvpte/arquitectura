@@ -1,0 +1,49 @@
+package tareaprogramacion;
+
+public class tarea {
+
+public static void main (String[] args ){
+	
+	int X=8,Y=12,x,y;
+	
+		x=X%Y;
+		y=X%Y;
+	   
+	    if(x==X && y==0)
+	    System.out.println(" Son multipos");
+	    
+	    else 
+	    System.out.println(" No son multipos");
+	    
+	    
+	    if (X%2==0)
+	    System.out.println(" X es par");
+	    
+	    else 
+	    System.out.println(" X es impar");
+	    
+	    if (Math.cbrt(X)*Math.cbrt(X)*Math.cbrt(X)==X)
+   	    System.out.println(" X tiene cubo exacto");
+	          
+	    else
+	    System.out.println(" El cubo de X es  "+ Math.cbrt(X));
+	    System.out.println(" X no tiene cubo exacto");
+	 
+	    		          
+         if (X%2==0)
+		 System.out.println(" Y es par");
+         
+		else 
+		System.out.println(" Y es impar");
+	          
+	    if (Math.cbrt(Y)*Math.cbrt(Y)*Math.cbrt(Y)==Y)		    	 
+        System.out.println(" Y tiene cubo exacto");
+	       
+	     else
+	     System.out.println(" El cubo de Y es " + Math.cbrt(Y));
+         System.out.println(" Y no tiene cubo exacto");
+	    
+	 }
+
+	
+}

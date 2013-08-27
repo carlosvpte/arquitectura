@@ -1,0 +1,16 @@
+
+package nominaclase;
+
+public class Empleado {
+	final private String cedula;
+	private String apellido;
+	private double horasTrabajadas;
+	private double sueldoxHoras;
+	public Empleado (String Cedula, String apellido, String nombre, double horasTrabajadas, double sueldoxhoras){
+		apellido
+		
+	}
+	
+	
+
+}
